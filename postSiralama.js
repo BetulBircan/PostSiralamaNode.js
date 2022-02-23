@@ -15,3 +15,13 @@ const listPosts = () => {
     })
 }
 
+//Yeni bir post ekleme:Promise yapısı kullanıldı eğer eklemede bir gecikme yaşanması halinde işlemin aksamaması için ve geriye yine promise döner.
+const addPosts = (newPost) => {
+    const promise1 = new Promise((resolve,reject) => {
+        posts.push(newPost)
+        resolve(posts)
+        //reject('POSTLAR ALINAMADI.')
+    })
+    return promise1
+}
+

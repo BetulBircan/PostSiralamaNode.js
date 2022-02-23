@@ -8,3 +8,10 @@ const posts = [
     { postName: "Gönderi 4", subject: "Konu 4", text: "Metin 4" }
 ]
 
+//Postları listeleme: map fonksiyonu ile listeleme işlemi yapıldı.
+const listPosts = () => {
+    posts.map((post) =>{
+        console.log(`${post.postName} ${post.subject}`)
+    })
+}
+

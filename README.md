@@ -46,11 +46,11 @@ async function showPosts() {
 
 showPosts()
 ```
-**Yeni Bir Post Eklemeden Önce **
+**Yeni Bir Post Eklemeden Önce**
 
 ![nodejsasync1](https://user-images.githubusercontent.com/86554799/155424462-852171eb-f413-4dfc-86a3-a13e32e0b2d2.jpg)
 
-**Yeni Bir Post Ekledikten Sonra **
+**Yeni Bir Post Ekledikten Sonra**
 
 ![nodejsasync2](https://user-images.githubusercontent.com/86554799/155424838-4eea6b39-06ae-418b-9afa-cccfc715bec7.jpg)
 
